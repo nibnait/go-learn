@@ -1,3 +1,9 @@
 .idea/
 go.mod
-/pkg
+/pkg/*
+/bin/*
+
+pkg/*
+bin/*
+
+.DS_Store

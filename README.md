@@ -1,4 +1,4 @@
-[https://github.com/geektime-geekbang/go_learning](https://github.com/geektime-geekbang/go_learning)
+::[https://github.com/geektime-geekbang/go_learning](https://github.com/geektime-geekbang/go_learning)
 
 ## ch1 基本数据类型
 
