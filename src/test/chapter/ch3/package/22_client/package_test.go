@@ -1,7 +1,7 @@
 package _2_client
 
 import (
-	"go-learn/src/test/ch3/package/22_series"
+	"go-learn/src/test/chapter/ch3/package/22_series"
 	"testing"
 )
 

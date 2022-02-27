@@ -1,6 +1,6 @@
 ## easyjson
 
-[/src/test/ch8/json](./src/test/ch8/01_json)
+[/src/test/ch8/json](../src/test/chapter/ch8/01_json)
 
 EasyJSON 采⽤代码⽣成⽽⾮反射
 
@@ -12,7 +12,7 @@ EasyJSON 采⽤代码⽣成⽽⾮反射
 
 ## http
 
-[/src/main/http](./src/main/ch8_02_http)
+[/src/main/http](../src/main/chapter/ch8_02_http)
 
 ### 路由规则
 

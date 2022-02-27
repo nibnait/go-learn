@@ -11,9 +11,9 @@
    - Java Thread 是 1:1
    - Groutine 是 M:N
 
-![](./img/协程.png)
+![](../img/协程.png)
 
-![](./img/协程队列.png)
+![](../img/协程队列.png)
 
 计数器：procesor 完成的 协程的数量。。长时间不变，直接中断
 
@@ -34,15 +34,15 @@ func TestGroutine(t *testing.T) {
 
 类似于 Java 中的 Future
 
-[26_async_service_test.go](./src/test/ch4/26_async_service_test.go)
+[26_async_service_test.go](../src/test/chapter/ch4/26_async_service_test.go)
 
 ## 多路选择 和 超时控制
 
-[27_select_test.go](./src/test/ch4/27_select_test.go)
+[27_select_test.go](../src/test/chapter/ch4/27_select_test.go)
 
 ## Channel 的关闭和广播
 
-[28_select_close_test](./src/test/ch4/28_select_close_test.go)
+[28_select_close_test](../src/test/chapter/ch4/28_select_close_test.go)
 
 - 向关闭的 channel 发送数据，会导致 panic
 - v, ok <-ch; ok 为 bool 值，true 表示正常接受，false 表示通道关闭
@@ -50,9 +50,9 @@ func TestGroutine(t *testing.T) {
 
 ## Context 与 任务取消
 
-[29_cancel_test](./src/test/ch4/29_cancel_test.go)
+[29_cancel_test](../src/test/chapter/ch4/29_cancel_test.go)
 
-[30_cancel_by_context_test.go](./src/test/ch4/30_cancel_by_context_test.go)
+[30_cancel_by_context_test.go](../src/test/chapter/ch4/30_cancel_by_context_test.go)
 
 Context
 
@@ -68,7 +68,7 @@ Context
 
 单例模式（懒汉式、线程安全）
 
-[31_once_test.go](./src/test/ch4/31_once_test.go)
+[31_once_test.go](../src/test/chapter/ch4/31_once_test.go)
 
 ```go
 var singleInstance *Singleton
@@ -85,17 +85,17 @@ func GetSingletonObj() *Singleton {
 
 ### 仅需任意任务完成
 
-[32_first_response_test](./src/test/ch4/32_first_response_test)
+[32_first_response_test](src/test/chapter/ch4/32_first_response_test)
 
 ### 必须所有任务完成
 
-[33_util_all_done_test](./src/test/ch4/33_util_all_done_test)
+[33_util_all_done_test](src/test/chapter/ch4/33_util_all_done_test)
 
 ## 对象池
 
 ### 使⽤buﬀered channel实现对象池
 
-[34_obj_pool_test.go](./src/test/ch4/34_obj_pool_test.go)
+[34_obj_pool_test.go](src/test/chapter/ch4/34_obj_pool_test.go)
 
 ### sync.Pool
 

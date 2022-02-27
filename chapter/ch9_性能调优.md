@@ -1,6 +1,6 @@
 ## 性能调优
 
-[/src/main/tools](./src/main/ch8_02_http)
+[/src/main/tools](../src/main/chapter/ch8_02_http)
 
 ### 准备⼯作
 
